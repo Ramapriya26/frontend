@@ -11,6 +11,7 @@ import {FaNodeJs} from "react-icons/fa";
 
 import {AiFillFacebook} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
+//import statement
 import {FaGithubSquare} from "react-icons/fa"
 import {AiFillTwitterSquare} from "react-icons/ai"
 
