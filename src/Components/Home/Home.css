@@ -1,0 +1,196 @@
+/* .maincontainer{
+    position: relative;
+    background: transparent;    
+} */
+
+
+/* rounded content */
+
+.sidecontent{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+    align-items: center;
+    position: absolute;
+    top:190px;
+    left:800px;
+}
+.innercontent{
+    width: 280px;
+    height: 280px;
+    background: radial-gradient(150px, var(--theme-main-color), transparent 90%);
+    position: relative;
+    border-radius: 50%;
+    border: 1.5px solid var(--theme-main-color);
+    animation: rotation 10s linear 1s infinite;
+}
+
+@keyframes rotation {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.icon1{
+    position: absolute; 
+    top: -9%;
+    left: 41%;  
+}
+.icon2{
+    position: absolute;
+    right: -8%;
+    top: 41.5%;   
+}
+.icon3{
+    position: absolute;   
+    bottom: -10%;
+    left: 41%;
+}
+.icon4{
+    position: absolute;
+    left: -8%;
+    top: 41%;   
+}
+
+
+.hometext{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top:200px;
+    left:150px;
+}
+span{
+    display: block;
+}
+.spanncont{
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+.divparticle .hometext h1 p{
+    /* color:var(--theme-main-color); */
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingEffectAnimation 3s steps(30,end)
+}
+.homebutton{
+    display: block;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+button{
+    cursor: pointer;
+   padding: 8px 25px;
+   /* margin-bottom: 5px; */
+   background: transparent; 
+   color: var(--theme-main-color);
+   border: 1.5px solid var(--theme-main-color);
+   /* box-shadow: 2px var(--theme-main-color); */
+   box-shadow: var(--theme-main-color) 0px 2px 8px 0px;
+}
+button a{
+    text-decoration: none;
+    color: var(--theme-main-color);
+    font-size: 15px;
+
+}
+button a:hover{
+    text-decoration: none;
+    font-size: 15px;
+
+    color: var(--theme-main-color);
+}
+/* button:hover{
+    font-weight: bold;
+    border-radius: 5px;
+} */
+
+
+@media only screen and (max-width : 550px){
+    .hometext{
+        display:flex;
+        justify-content: center;
+        position: absolute;
+        top:150px;
+        left:100px;
+    }
+    .hometext h1 p{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+}
+@media only screen and (min-width:551px) and (max-width : 768px){
+    .hometext{
+        display:flex;
+        justify-content: center;
+        position: absolute;
+        top:150px;
+        left:200px;
+    }
+    .hometext h1 p{
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}
+@media only screen and (min-width:769px) and (max-width : 990px){
+    .hometext{
+        display:flex;
+        justify-content: center;
+        position: absolute;
+        top:150px;
+        left:300px;
+    }
+    .hometext h1 p{
+        font-size: 6rem;
+        line-height: 8rem;
+    }
+}
+
+@keyframes typingEffectAnimation {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+
+
+.maincont{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    /* height: 100vw; */
+    width: 100%;
+    height: 730px;
+    background: #1d1d1d;
+}
+.divparticle{
+    /* position: relative; */
+    width: 100%;              
+}
+ 
+.diviconns{
+    background:transparent;
+    margin-top: 30px;
+    /* padding: 8px; */
+    /* border: 2px solid var(--theme-main-color); */
+    cursor: pointer;
+   /* padding: 10px 35px; */
+    /* border-radius: 15px; */
+}
+.homeicons{
+    color: var(--theme-main-color);
+    padding:10px 10px 10px 0;
+}
+.homeicons:hover{
+    color: var(--theme-main-color);
+}

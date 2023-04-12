@@ -1,0 +1,123 @@
+.AboutContainer{
+    background: var(--yellow-background-color);
+    height: 650px;
+}
+.Aboutdatas{
+    border-radius: 20px;
+    display:grid;
+    grid-template-columns: 35% 53%;
+    gap:12%;
+    padding:30px;
+    /* position: relative; */
+}
+.aboutimg{
+    height: fit-content;
+    max-height: 300px;
+    max-width: 300px;
+    border: 1rem solid var(--theme-main-color);
+    /* margin-top:20px; */
+    position: absolute;
+    top:90px;
+    left:140px;
+}
+/* 
+.aboutRight .para{
+    padding: 5px;
+    margin-top: 15px;
+    max-width: 500px;
+    font-size: 18px;
+    justify-content: center;
+    
+
+} */
+
+
+
+.aboutRight .para{
+    padding: 5px;
+    margin-top: 15px;
+    max-width: 500px;
+    font-size: 18px;
+    justify-content: center;
+    /* color: var(--theme-main-color); */
+    color: white;
+}
+
+
+
+.aboutRight h3{
+    padding: 10px;
+    color: var(--theme-main-color);
+    font-size: 25px;
+    /* color: white; */
+}
+
+.aboutCards{
+    margin:3rem 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.acard{
+    text-align: center;
+    /* background: gray; */
+}
+.aboutcard{
+    background: var(--theme-main-color);
+}
+.cardicon{
+    font-size: 1.3rem;
+    color: var(--color-black);
+    /* border: 1px solid rgb(99, 94, 94); */
+    border: 1px solid var(--theme-main-color);
+    border-radius: 8px;
+    width:fit-content;
+    margin-inline: auto;
+    padding:0.6rem;
+    display:flex;
+    align-items:center;
+    /* transition: var(--transition); */
+    background-color: var(--theme-main-color);
+
+
+}
+/* .cardicon:hover{
+        background-color: var(--theme-main-color);
+} */
+.aboutcard h5{
+    margin: 8px 0;
+    text-align: center;
+    /* color: var(--theme-main-color); */
+    color: white;
+}
+
+.descc{
+    margin-left: 20px;
+    /* color: var(--theme-main-color); */
+    color: white;
+    text-align: center;
+}
+.aboutRight p{
+    margin-bottom: 0.8rem;
+    max-width: 500px;
+    font-size: 18px;
+    color: var(--theme-main-color);
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.aboutcard{
+    background: rgb(36, 36, 36);
+    padding:1.5rem;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    /* transition: var(--transition); */
+    box-shadow: 1px 1px 1px 1px var(--theme-main-color);
+}
+
+.aboutcard:hover{
+    /* background: transparent; */
+    border: 2px solid var(--theme-main-color);
+    /* border-color: white; */
+    /* transform: transulateY(10px); */
+}
